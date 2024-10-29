@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+tugas/CMakeFiles/run.dir/rule:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 tugas/CMakeFiles/run.dir/rule
+.PHONY : tugas/CMakeFiles/run.dir/rule
+
+# Convenience name for target.
+run: tugas/CMakeFiles/run.dir/rule
+
+.PHONY : run
+
+# fast build rule for target.
+run/fast:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f tugas/CMakeFiles/run.dir/build.make tugas/CMakeFiles/run.dir/build
+.PHONY : run/fast
+
+# Convenience name for target.
 tugas/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
 	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 tugas/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : tugas/CMakeFiles/std_msgs_generate_messages_py.dir/rule
@@ -392,6 +407,33 @@ rosgraph_msgs_generate_messages_py/fast:
 	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f tugas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make tugas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
+nama.o: nama.cpp.o
+
+.PHONY : nama.o
+
+# target to build an object file
+nama.cpp.o:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f tugas/CMakeFiles/run.dir/build.make tugas/CMakeFiles/run.dir/nama.cpp.o
+.PHONY : nama.cpp.o
+
+nama.i: nama.cpp.i
+
+.PHONY : nama.i
+
+# target to preprocess a source file
+nama.cpp.i:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f tugas/CMakeFiles/run.dir/build.make tugas/CMakeFiles/run.dir/nama.cpp.i
+.PHONY : nama.cpp.i
+
+nama.s: nama.cpp.s
+
+.PHONY : nama.s
+
+# target to generate assembly for a file
+nama.cpp.s:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f tugas/CMakeFiles/run.dir/build.make tugas/CMakeFiles/run.dir/nama.cpp.s
+.PHONY : nama.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +444,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... run"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
@@ -420,6 +463,9 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... nama.o"
+	@echo "... nama.i"
+	@echo "... nama.s"
 .PHONY : help
 
 

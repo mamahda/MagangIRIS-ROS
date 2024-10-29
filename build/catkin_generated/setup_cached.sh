@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/gilbran/MagangIRIS/MagangIRIS-ROS/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/gilbran/MagangIRIS/MagangIRIS-ROS/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/gilbran/MagangIRIS/MagangIRIS-ROS/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/gilbran/MagangIRIS/MagangIRIS-ROS/src:$ROS_PACKAGE_PATH"

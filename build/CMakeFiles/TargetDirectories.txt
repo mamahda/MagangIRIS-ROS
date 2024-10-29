@@ -39,6 +39,7 @@
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/rebuild_cache.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/edit_cache.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/test.dir
+/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/run.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/CMakeFiles/roscpp_generate_messages_cpp.dir
