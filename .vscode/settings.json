@@ -1,3 +1,8 @@
 {
-  "cmake.sourceDirectory": "/home/gilbran/MagangIRIS/MagangIRIS-ROS/src/gerakrobot"
+  "cmake.sourceDirectory": "/home/gilbran/MagangIRIS/MagangIRIS-ROS/src/gerakrobot",
+  "files.associations": {
+    "random": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
+  }
 }

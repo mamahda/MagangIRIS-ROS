@@ -12,7 +12,7 @@ void robotPositionCallback(const geometry_msgs::Pose::ConstPtr& msg) {
     srv.request.y = msg->position.y;
 
     if (robot_client.call(srv)) {
-        ROS_INFO("Moved robot turtle to: (%f, %f)", msg->positionMagangIRIS.x, msg->position.y);
+        ROS_INFO("Moved robot turtle to: (%f, %f)", msg->position.x, msg->position.y);
     }
 }
 

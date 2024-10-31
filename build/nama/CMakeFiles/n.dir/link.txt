@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/n.dir/src/N7.cpp.o  -o /home/gilbran/MagangIRIS/MagangIRIS-ROS/devel/lib/nama/n 

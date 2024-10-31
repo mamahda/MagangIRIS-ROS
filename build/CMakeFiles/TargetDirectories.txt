@@ -66,3 +66,4 @@
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/nama/CMakeFiles/rebuild_cache.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/nama/CMakeFiles/edit_cache.dir
 /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/nama/CMakeFiles/test.dir
+/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/nama/CMakeFiles/write.dir

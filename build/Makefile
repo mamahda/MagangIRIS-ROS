@@ -505,6 +505,19 @@ rosgraph_msgs_generate_messages_py/fast:
 	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named write
+
+# Build rule for target.
+write: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 write
+.PHONY : write
+
+# fast build rule for target.
+write/fast:
+	$(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/build
+.PHONY : write/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -544,6 +557,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... write"
 .PHONY : help
 
 

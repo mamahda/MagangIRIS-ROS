@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/b.dir/src/B4.cpp.o  -o /home/gilbran/MagangIRIS/MagangIRIS-ROS/devel/lib/nama/b 

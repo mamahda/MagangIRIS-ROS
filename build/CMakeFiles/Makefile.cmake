@@ -219,4 +219,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
   "gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "nama/CMakeFiles/write.dir/DependInfo.cmake"
   )

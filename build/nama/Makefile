@@ -167,6 +167,48 @@ depend:
 	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+nama/CMakeFiles/write.dir/rule:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 nama/CMakeFiles/write.dir/rule
+.PHONY : nama/CMakeFiles/write.dir/rule
+
+# Convenience name for target.
+write: nama/CMakeFiles/write.dir/rule
+
+.PHONY : write
+
+# fast build rule for target.
+write/fast:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/build
+.PHONY : write/fast
+
+src/write.o: src/write.cpp.o
+
+.PHONY : src/write.o
+
+# target to build an object file
+src/write.cpp.o:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/src/write.cpp.o
+.PHONY : src/write.cpp.o
+
+src/write.i: src/write.cpp.i
+
+.PHONY : src/write.i
+
+# target to preprocess a source file
+src/write.cpp.i:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/src/write.cpp.i
+.PHONY : src/write.cpp.i
+
+src/write.s: src/write.cpp.s
+
+.PHONY : src/write.s
+
+# target to generate assembly for a file
+src/write.cpp.s:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/src/write.cpp.s
+.PHONY : src/write.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -180,6 +222,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... write"
+	@echo "... src/write.o"
+	@echo "... src/write.i"
+	@echo "... src/write.s"
 .PHONY : help
 
 

@@ -174,7 +174,7 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory nama
 
 # Recursive "all" directory target.
-nama/all:
+nama/all: nama/CMakeFiles/write.dir/all
 
 .PHONY : nama/all
 
@@ -184,7 +184,7 @@ nama/preinstall:
 .PHONY : nama/preinstall
 
 # Recursive "clean" directory target.
-nama/clean:
+nama/clean: nama/CMakeFiles/write.dir/clean
 
 .PHONY : nama/clean
 
@@ -890,6 +890,33 @@ rosgraph_msgs_generate_messages_py: gerakrobot/CMakeFiles/rosgraph_msgs_generate
 gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 .PHONY : gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target nama/CMakeFiles/write.dir
+
+# All Build rule for target.
+nama/CMakeFiles/write.dir/all:
+	$(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/depend
+	$(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles --progress-num=13,14 "Built target write"
+.PHONY : nama/CMakeFiles/write.dir/all
+
+# Build rule for subdir invocation for target.
+nama/CMakeFiles/write.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 nama/CMakeFiles/write.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles 0
+.PHONY : nama/CMakeFiles/write.dir/rule
+
+# Convenience name for target.
+write: nama/CMakeFiles/write.dir/rule
+
+.PHONY : write
+
+# clean rule for target.
+nama/CMakeFiles/write.dir/clean:
+	$(MAKE) -f nama/CMakeFiles/write.dir/build.make nama/CMakeFiles/write.dir/clean
+.PHONY : nama/CMakeFiles/write.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
