@@ -130,7 +130,7 @@ void write_R(int r, int g, int b, double x, double y) {
     rotate(-120);
     moveTurtle(1);
 
-    rotate(100);
+    rotate(105);
     moveTurtle(sqrt(2));
 }
 
@@ -148,6 +148,7 @@ void write_A(int r, int g, int b, double x, double y) {
     setpen(255, 255, 255);
     teleport(7.3, 5);
     setpen(r, g, b);
+
     moveTurtle(0.5);
 }
 
@@ -160,7 +161,7 @@ void write_N(int r, int g, int b, double x, double y) {
     moveTurtle(2);
 
     rotate(-150);
-    moveTurtle(1 + sqrt(2));
+    moveTurtle(sqrt(5));
 
     rotate(150);
     moveTurtle(2);
