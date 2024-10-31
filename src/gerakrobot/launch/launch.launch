@@ -1,0 +1,4 @@
+<launch>
+    <node name="publisher" pkg="gerakrobot" type="publisher" output="screen"/>
+    <node name="subscriber" pkg="gerakrobot" type="subscriber" output="screen"/>
+</launch>

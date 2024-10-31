@@ -285,17 +285,17 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named run
+# Target rules for targets named subscriber
 
 # Build rule for target.
-run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run
-.PHONY : run
+subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
 
 # fast build rule for target.
-run/fast:
-	$(MAKE) -f tugas/CMakeFiles/run.dir/build.make tugas/CMakeFiles/run.dir/build
-.PHONY : run/fast
+subscriber/fast:
+	$(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -307,7 +307,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f tugas/CMakeFiles/std_msgs_generate_messages_py.dir/build.make tugas/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir/build.make gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f tugas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make tugas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make gerakrobot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f tugas/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make tugas/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make gerakrobot/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f tugas/CMakeFiles/roscpp_generate_messages_eus.dir/build.make tugas/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/roscpp_generate_messages_eus.dir/build.make gerakrobot/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -359,7 +359,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f tugas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make tugas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -372,7 +372,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f tugas/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make tugas/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make gerakrobot/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -385,7 +385,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f tugas/CMakeFiles/roscpp_generate_messages_py.dir/build.make tugas/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/roscpp_generate_messages_py.dir/build.make gerakrobot/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -398,7 +398,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f tugas/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make tugas/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make gerakrobot/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -411,7 +411,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f tugas/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make tugas/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make gerakrobot/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -424,7 +424,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f tugas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make tugas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -437,7 +437,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f tugas/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make tugas/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make gerakrobot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -450,8 +450,21 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f tugas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make tugas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named publisher
+
+# Build rule for target.
+publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publisher
+.PHONY : publisher
+
+# fast build rule for target.
+publisher/fast:
+	$(MAKE) -f gerakrobot/CMakeFiles/publisher.dir/build.make gerakrobot/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
@@ -463,7 +476,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f tugas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make tugas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -476,7 +489,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f tugas/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make tugas/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -489,7 +502,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f tugas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make tugas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Help Target
@@ -514,7 +527,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... run"
+	@echo "... subscriber"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
@@ -527,6 +540,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... publisher"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"

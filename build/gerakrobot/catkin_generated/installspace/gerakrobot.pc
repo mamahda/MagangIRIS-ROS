@@ -1,0 +1,8 @@
+prefix=/home/gilbran/MagangIRIS/MagangIRIS-ROS/install
+
+Name: gerakrobot
+Description: Description of gerakrobot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

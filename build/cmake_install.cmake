@@ -131,7 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/gtest/cmake_install.cmake")
-  include("/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/tugas/cmake_install.cmake")
+  include("/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/gerakrobot/cmake_install.cmake")
+  include("/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/nama/cmake_install.cmake")
 
 endif()
 
