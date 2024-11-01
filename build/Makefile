@@ -285,19 +285,6 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named subscriber
-
-# Build rule for target.
-subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber
-.PHONY : subscriber
-
-# fast build rule for target.
-subscriber/fast:
-	$(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/build
-.PHONY : subscriber/fast
-
-#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
 
 # Build rule for target.
@@ -480,6 +467,19 @@ rosgraph_msgs_generate_messages_lisp/fast:
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named spawn
+
+# Build rule for target.
+spawn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spawn
+.PHONY : spawn
+
+# fast build rule for target.
+spawn/fast:
+	$(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/build
+.PHONY : spawn/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
 
 # Build rule for target.
@@ -540,7 +540,6 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... subscriber"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
@@ -555,6 +554,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... publisher"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... spawn"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... write"

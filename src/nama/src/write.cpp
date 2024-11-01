@@ -166,6 +166,13 @@ void write_N(int r, int g, int b, double x, double y) {
     rotate(150);
     moveTurtle(2);
 }
+void write_line(int r, int g, int b, double x, double y) {
+    setpen(255, 255, 255);
+    teleport(x, y);
+    setpen(r, g, b);
+
+    moveTurtle(9.5);
+}
 
 int main(int argc, char** argv) {
     ros::init(argc, argv, "control_turtle1_GILBRAN");
@@ -182,6 +189,7 @@ int main(int argc, char** argv) {
 
     std_srvs::Empty srv;
     ros::Rate rate(0.1);
+    ros::Duration(0.5).sleep();
 
     while (ros::ok()) {
         write_G(0, 0, 0, 1.5, 6);
@@ -191,6 +199,7 @@ int main(int argc, char** argv) {
         write_R(0, 0, 0, 5.5, 4);
         write_A(0, 0, 0, 7, 4);
         write_N(0, 0, 0, 8.5, 4);
+        write_line(0, 0, 0, 0.5, 3.5);
 
         write_G(255, 255, 255, 1.5, 6);
         write_I(255, 255, 255, 2, 6);

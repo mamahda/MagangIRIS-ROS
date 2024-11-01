@@ -1,4 +1,9 @@
 <launch>
-    <node name="publisher" pkg="gerakrobot" type="publisher" output="screen"/>
+    <param name="/turtlesim/background_r" type="int" value="0"/>
+    <param name="/turtlesim/background_g" type="int" value="0"/>
+    <param name="/turtlesim/background_b" type="int" value="0"/>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+    <node name="spawn" pkg="gerakrobot" type="spawn" output="screen"/>
     <node name="subscriber" pkg="gerakrobot" type="subscriber" output="screen"/>
+    <node name="publisher" pkg="gerakrobot" type="publisher" output="screen"/>
 </launch>

@@ -82,8 +82,8 @@ clean: nama/clean
 # Directory level rules for directory gerakrobot
 
 # Recursive "all" directory target.
-gerakrobot/all: gerakrobot/CMakeFiles/subscriber.dir/all
 gerakrobot/all: gerakrobot/CMakeFiles/publisher.dir/all
+gerakrobot/all: gerakrobot/CMakeFiles/spawn.dir/all
 
 .PHONY : gerakrobot/all
 
@@ -93,7 +93,6 @@ gerakrobot/preinstall:
 .PHONY : gerakrobot/preinstall
 
 # Recursive "clean" directory target.
-gerakrobot/clean: gerakrobot/CMakeFiles/subscriber.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
@@ -108,6 +107,7 @@ gerakrobot/clean: gerakrobot/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/publisher.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+gerakrobot/clean: gerakrobot/CMakeFiles/spawn.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 gerakrobot/clean: gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
@@ -431,33 +431,6 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
-
-#=============================================================================
-# Target rules for target gerakrobot/CMakeFiles/subscriber.dir
-
-# All Build rule for target.
-gerakrobot/CMakeFiles/subscriber.dir/all:
-	$(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/depend
-	$(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles --progress-num=11,12 "Built target subscriber"
-.PHONY : gerakrobot/CMakeFiles/subscriber.dir/all
-
-# Build rule for subdir invocation for target.
-gerakrobot/CMakeFiles/subscriber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 gerakrobot/CMakeFiles/subscriber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles 0
-.PHONY : gerakrobot/CMakeFiles/subscriber.dir/rule
-
-# Convenience name for target.
-subscriber: gerakrobot/CMakeFiles/subscriber.dir/rule
-
-.PHONY : subscriber
-
-# clean rule for target.
-gerakrobot/CMakeFiles/subscriber.dir/clean:
-	$(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/clean
-.PHONY : gerakrobot/CMakeFiles/subscriber.dir/clean
 
 #=============================================================================
 # Target rules for target gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir
@@ -836,6 +809,33 @@ rosgraph_msgs_generate_messages_lisp: gerakrobot/CMakeFiles/rosgraph_msgs_genera
 gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 	$(MAKE) -f gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 .PHONY : gerakrobot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target gerakrobot/CMakeFiles/spawn.dir
+
+# All Build rule for target.
+gerakrobot/CMakeFiles/spawn.dir/all:
+	$(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/depend
+	$(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles --progress-num=11,12 "Built target spawn"
+.PHONY : gerakrobot/CMakeFiles/spawn.dir/all
+
+# Build rule for subdir invocation for target.
+gerakrobot/CMakeFiles/spawn.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 gerakrobot/CMakeFiles/spawn.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gilbran/MagangIRIS/MagangIRIS-ROS/build/CMakeFiles 0
+.PHONY : gerakrobot/CMakeFiles/spawn.dir/rule
+
+# Convenience name for target.
+spawn: gerakrobot/CMakeFiles/spawn.dir/rule
+
+.PHONY : spawn
+
+# clean rule for target.
+gerakrobot/CMakeFiles/spawn.dir/clean:
+	$(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/clean
+.PHONY : gerakrobot/CMakeFiles/spawn.dir/clean
 
 #=============================================================================
 # Target rules for target gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir

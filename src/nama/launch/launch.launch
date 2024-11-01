@@ -1,3 +1,7 @@
 <launch>
+    <param name="/turtlesim/background_r" type="int" value="255"/>
+    <param name="/turtlesim/background_g" type="int" value="255"/>
+    <param name="/turtlesim/background_b" type="int" value="255"/>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen"/>
     <node name="publisher" pkg="nama" type="write" output="screen"/>
 </launch>

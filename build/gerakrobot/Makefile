@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-gerakrobot/CMakeFiles/subscriber.dir/rule:
-	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gerakrobot/CMakeFiles/subscriber.dir/rule
-.PHONY : gerakrobot/CMakeFiles/subscriber.dir/rule
-
-# Convenience name for target.
-subscriber: gerakrobot/CMakeFiles/subscriber.dir/rule
-
-.PHONY : subscriber
-
-# fast build rule for target.
-subscriber/fast:
-	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/build
-.PHONY : subscriber/fast
-
-# Convenience name for target.
 gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
 	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : gerakrobot/CMakeFiles/std_msgs_generate_messages_py.dir/rule
@@ -393,6 +378,21 @@ rosgraph_msgs_generate_messages_lisp/fast:
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+gerakrobot/CMakeFiles/spawn.dir/rule:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gerakrobot/CMakeFiles/spawn.dir/rule
+.PHONY : gerakrobot/CMakeFiles/spawn.dir/rule
+
+# Convenience name for target.
+spawn: gerakrobot/CMakeFiles/spawn.dir/rule
+
+.PHONY : spawn
+
+# fast build rule for target.
+spawn/fast:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/build
+.PHONY : spawn/fast
+
+# Convenience name for target.
 gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
 	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : gerakrobot/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
@@ -449,32 +449,32 @@ src/publisher.cpp.s:
 	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/publisher.dir/build.make gerakrobot/CMakeFiles/publisher.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
 
-src/subscriber.o: src/subscriber.cpp.o
+src/spawn.o: src/spawn.cpp.o
 
-.PHONY : src/subscriber.o
+.PHONY : src/spawn.o
 
 # target to build an object file
-src/subscriber.cpp.o:
-	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/src/subscriber.cpp.o
-.PHONY : src/subscriber.cpp.o
+src/spawn.cpp.o:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/src/spawn.cpp.o
+.PHONY : src/spawn.cpp.o
 
-src/subscriber.i: src/subscriber.cpp.i
+src/spawn.i: src/spawn.cpp.i
 
-.PHONY : src/subscriber.i
+.PHONY : src/spawn.i
 
 # target to preprocess a source file
-src/subscriber.cpp.i:
-	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/src/subscriber.cpp.i
-.PHONY : src/subscriber.cpp.i
+src/spawn.cpp.i:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/src/spawn.cpp.i
+.PHONY : src/spawn.cpp.i
 
-src/subscriber.s: src/subscriber.cpp.s
+src/spawn.s: src/spawn.cpp.s
 
-.PHONY : src/subscriber.s
+.PHONY : src/spawn.s
 
 # target to generate assembly for a file
-src/subscriber.cpp.s:
-	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/subscriber.dir/build.make gerakrobot/CMakeFiles/subscriber.dir/src/subscriber.cpp.s
-.PHONY : src/subscriber.cpp.s
+src/spawn.cpp.s:
+	cd /home/gilbran/MagangIRIS/MagangIRIS-ROS/build && $(MAKE) -f gerakrobot/CMakeFiles/spawn.dir/build.make gerakrobot/CMakeFiles/spawn.dir/src/spawn.cpp.s
+.PHONY : src/spawn.cpp.s
 
 # Help Target
 help:
@@ -486,7 +486,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... subscriber"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
@@ -504,14 +503,15 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... publisher"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... spawn"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
-	@echo "... src/subscriber.o"
-	@echo "... src/subscriber.i"
-	@echo "... src/subscriber.s"
+	@echo "... src/spawn.o"
+	@echo "... src/spawn.i"
+	@echo "... src/spawn.s"
 .PHONY : help
 
 
