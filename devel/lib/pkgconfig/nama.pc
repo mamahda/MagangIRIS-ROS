@@ -1,8 +1,0 @@
-prefix=/home/gilbran/MagangIRIS/MagangIRIS-ROS/devel
-
-Name: nama
-Description: Description of nama
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
