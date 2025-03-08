@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/r.dir/src/R5.cpp.o  -o /home/gilbran/MagangIRIS/MagangIRIS-ROS/devel/lib/nama/r 

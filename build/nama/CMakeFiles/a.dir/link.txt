@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/a.dir/src/A6.cpp.o  -o /home/gilbran/MagangIRIS/MagangIRIS-ROS/devel/lib/nama/a 

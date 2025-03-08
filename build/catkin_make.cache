@@ -1,2 +1,0 @@
-gerakrobot:nama
--DCATKIN_DEVEL_PREFIX=/home/gilbran/MagangIRIS/MagangIRIS-ROS/devel -DCMAKE_INSTALL_PREFIX=/home/gilbran/MagangIRIS/MagangIRIS-ROS/install -G Unix Makefiles
